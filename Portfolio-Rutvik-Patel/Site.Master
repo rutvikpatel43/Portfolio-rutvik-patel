@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Portfolio_Rutvik_Patel.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Css Section-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="~/Icon.png" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Nav Bar Header-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Default.aspx">Rutvik Patel</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-road"></i>Rutvik</a></li>
+                        <li id="About" runat="server"><a href="Default.aspx"><i class="fa fa-info"></i>About</a></li>
+                        <li id="Project" runat="server"><a href="Default.aspx"><i class="fa fa-rocket"></i>Projects</a></li>
+                        <li id="Skills" runat="server"><a href="Default.aspx"><i class="fa fa-puzzle-piece"></i>Skills</a></li>
+                        <li id="Contact" runat="server"><a href="Default.aspx"><i class="fa fa-pencil-square-o"></i>Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Footer-->
+        <footer class="navbar navbar-default" style="margin-top :35%">
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-sm-5">
+                    <ul>
+                        <a href="Default.aspx"><i class="fa fa-road"></i> Rutvik</a>|
+                        <a href="Default.aspx"><i class="fa fa-info"></i> About</a>|
+                    
+                        <a href="Default.aspx"><i class="fa fa-rocket"></i> Projects</a>|
+                   
+                        <a href="Default.aspx"><i class="fa fa-puzzle-piece"></i> Skills</a>|
+                    
+                        <a href="Default.aspx"><i class="fa fa-pencil-square-o"></i> Contact</a>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <p style="padding: 10px; word-spacing: 20px;">
+                        <a href="https://www.facebook.com/rutvik.patel.188"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+                        <a href="https://github.com/rutvikpatel43"><i class="fa fa-git fa-lg" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/rutvik-patel-7214a5b4?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <a href="Default.aspx"> Rutvik Patel</a>
+
+                </div>
+            </div>
+
+        </footer>
+    </form>
+    <!-- JavaScript-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-2.2.3.min.js"></script>
+</body>
+</html>
