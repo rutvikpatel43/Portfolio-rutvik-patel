@@ -26,12 +26,12 @@ namespace Portfolio_Rutvik_Patel
                 case "Contact":
                     Contact.Attributes.Add("class", "active");
                     break;
-                /*case "About":
-                    About.Attributes.Add("class", "active");
+                case "Project":
+                    Project.Attributes.Add("class", "active");
                     break;
-                case "Services":
-                    Services.Attributes.Add("class", "active");
-                    break;*/
+                case "Skills":
+                    Skills.Attributes.Add("class", "active");
+                    break;
             }
             return Page.Title;
         }

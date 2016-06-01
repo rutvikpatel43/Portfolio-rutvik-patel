@@ -9,16 +9,18 @@
     <title></title>
     <!-- Css Section-->
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+  
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/png" href="~/Icon.png" />
+     <link href="css/Custom-css.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <!-- Nav Bar Header-->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default ">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -34,33 +36,35 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-road"></i>Rutvik</a></li>
-                        <li id="About" runat="server"><a href="Default.aspx"><i class="fa fa-info"></i>About</a></li>
-                        <li id="Project" runat="server"><a href="Default.aspx"><i class="fa fa-rocket"></i>Projects</a></li>
-                        <li id="Skills" runat="server"><a href="Default.aspx"><i class="fa fa-puzzle-piece"></i>Skills</a></li>
-                        <li id="Contact" runat="server"><a href="Default.aspx"><i class="fa fa-pencil-square-o"></i>Contact</a></li>
+                        <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-info"></i>About</a></li>
+                        <li id="Project" runat="server"><a href="Project.aspx"><i class="fa fa-rocket"></i>Projects</a></li>
+                        <li id="Skills" runat="server"><a href="Skills.aspx"><i class="fa fa-puzzle-piece"></i>Skills</a></li>
+                        <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-pencil-square-o"></i>Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
         </nav>
+         </form>
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+       
         <!-- Footer-->
-        <footer class="navbar navbar-default" style="margin-top :35%">
+        <footer class="navbar navbar-default" >
             <div class="row" style="padding-top: 20px;">
                 <div class="col-sm-5">
                     <ul>
                         <a href="Default.aspx"><i class="fa fa-road"></i> Rutvik</a>|
-                        <a href="Default.aspx"><i class="fa fa-info"></i> About</a>|
+                        <a href="About.aspx"><i class="fa fa-info"></i> About</a>
                     
-                        <a href="Default.aspx"><i class="fa fa-rocket"></i> Projects</a>|
+                        <a href="Project.aspx"><i class="fa fa-rocket"></i> Projects</a>|
                    
-                        <a href="Default.aspx"><i class="fa fa-puzzle-piece"></i> Skills</a>|
+                        <a href="Skills.aspx"><i class="fa fa-puzzle-piece"></i> Skills</a>|
                     
-                        <a href="Default.aspx"><i class="fa fa-pencil-square-o"></i> Contact</a>
+                        <a href="Contact.aspx"><i class="fa fa-pencil-square-o"></i> Contact</a>
                     </ul>
                 </div>
                 <div class="col-sm-4">
@@ -77,7 +81,7 @@
             </div>
 
         </footer>
-    </form>
+    
     <!-- JavaScript-->
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jquery-2.2.3.min.js"></script>

@@ -1,0 +1,13 @@
+﻿body {
+    background-image: url('../Assests/768-light-gray-gradient-1920x1200-abstract-wallpaper (1).jpg');
+}
+
+p{
+    color:maroon;
+    font-family:Bradley Hand ITC;
+    font-size:24px;
+}
+h1{
+    color:crimson;
+    font-style:italic;
+}
