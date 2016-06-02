@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="ContactMe" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Rutvik_Patel.Contact1" %>
-
+<%--
+*File name: Contact.aspx,	
+    Author's name:Rutvik Patel,
+    web	site	name:http://http://portfolio-rutvik-patel.azurewebsites.net/,
+    file description: This file contains a contact me form.
+--%>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContactPage" runat="server">
 <div class="container">
         <div class="row">
@@ -32,7 +37,7 @@
                 </div>
                 
                 <div class="text-right">
-                    <asp:Button CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" runat="server" />
+                    <a href="Default.aspx" class="btn btn-primary btn-lg">Send</a>
                     <asp:Button CssClass="btn btn-default btn-lg" ID="CancelButton" Text="Cancel" runat="server"/>
 
                 </div>

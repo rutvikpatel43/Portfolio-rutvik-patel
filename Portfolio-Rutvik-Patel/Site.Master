@@ -1,5 +1,10 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Portfolio_Rutvik_Patel.Site" %>
-
+<%--
+*File name: About.aspx,	
+    Author's	name:Rutvik Patel,
+    web	site	name:http://http://portfolio-rutvik-patel.azurewebsites.net/,
+    file description: This file is the site manager for default, project,skills,about pages.
+--%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -34,11 +39,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-road"></i>Rutvik</a></li>
-                        <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-info"></i>About</a></li>
-                        <li id="Project" runat="server"><a href="Project.aspx"><i class="fa fa-rocket"></i>Projects</a></li>
-                        <li id="Skills" runat="server"><a href="Skills.aspx"><i class="fa fa-puzzle-piece"></i>Skills</a></li>
-                        <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-pencil-square-o"></i>Contact</a></li>
+                        <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-road"></i> Rutvik</a></li>
+                        <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-info"></i> About</a></li>
+                        <li id="Project" runat="server"><a href="Project.aspx"><i class="fa fa-rocket"></i> Projects</a></li>
+                        <li id="Skills" runat="server"><a href="Skills.aspx"><i class="fa fa-puzzle-piece"></i> Skills</a></li>
+                        <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-pencil-square-o"></i> Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="Project" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Project.aspx.cs" Inherits="Portfolio_Rutvik_Patel.Project" %>
-
+<%--
+*File name: project.aspx,	
+    Author's	name:Rutvik Patel,
+    web	site	name:http://http://portfolio-rutvik-patel.azurewebsites.net/,
+    file description: This file is the about page decribes about my project that i have worked on.
+--%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Using grid layout for the page-->
     <div class="col-md-offset-1">
         <h1>Projects</h1>
         <div class="row">
@@ -36,7 +42,7 @@
                 <img src="Assests/surveysite.png" height="50%" width="50%" />
                 <br />
                 <p> In a group of 4. We Created a full mean stack survey site . You can create survey and send to people. People gets link to complete survey and when they submit their survey.You can get their response in a pdf format.</p>
-                <p>link: <a href="pnpinfotech.azurewebsites.net" target="_blank">pnpinfotech.azurewebsites.net</a></p>
+                <p>link: <a href="http:\\pnpinfotech.azurewebsites.net" target="_blank">pnpinfotech.azurewebsites.net</a></p>
             </div>
 
         </div>

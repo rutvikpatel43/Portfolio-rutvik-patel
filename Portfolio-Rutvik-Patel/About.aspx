@@ -3,7 +3,7 @@
 *File name: About.aspx,	
     Author's	name:Rutvik Patel,
     web	site	name:http://http://portfolio-rutvik-patel.azurewebsites.net/,
-    file description: This file is the about page.
+    file description: This file is the about page decribes about myself.
 --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
