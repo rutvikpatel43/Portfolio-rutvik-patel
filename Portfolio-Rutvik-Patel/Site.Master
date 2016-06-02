@@ -14,10 +14,9 @@
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/png" href="~/Icon.png" />
      <link href="css/Custom-css.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
+    <div style="min-height:600px">
     <form id="form1" runat="server">
         <!-- Nav Bar Header-->
         <nav class="navbar navbar-default ">
@@ -51,14 +50,14 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-       
+       </div>
         <!-- Footer-->
         <footer class="navbar navbar-default" >
-            <div class="row" style="padding-top: 20px;">
+            <div class="row">
                 <div class="col-sm-5">
                     <ul>
                         <a href="Default.aspx"><i class="fa fa-road"></i> Rutvik</a>|
-                        <a href="About.aspx"><i class="fa fa-info"></i> About</a>
+                        <a href="About.aspx"><i class="fa fa-info"></i> About</a>|
                     
                         <a href="Project.aspx"><i class="fa fa-rocket"></i> Projects</a>|
                    

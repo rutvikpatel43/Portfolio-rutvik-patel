@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=2.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.2.2.3\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -70,7 +74,11 @@
     <Content Include="About.aspx" />
     <Content Include="Assests\768-light-gray-gradient-1920x1200-abstract-wallpaper %281%29.jpg" />
     <Content Include="Assests\Background-2.png" />
+    <Content Include="Assests\c-logo.png" />
+    <Content Include="Assests\F6RIPAPHQF9H5IO.MEDIUM.jpg" />
     <Content Include="Assests\FB_IMG_1444736215798.jpg" />
+    <Content Include="Assests\IT.jpg" />
+    <Content Include="Assests\surveysite.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

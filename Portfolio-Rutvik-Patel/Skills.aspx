@@ -40,5 +40,16 @@
                 Mongo DB
             </div>
         </div>
+        <br />
+        <br />
+        <p>Apart, from all this skills i know c# and have done some assignment</p>
+        <ul>
+            <li>
+                <p> Payment Gateway windows form</p>
+            </li>
+            <li>
+                <p> Youtube Downloader</p>
+            </li>
+        </ul>
     </div>
 </asp:Content>

@@ -11,3 +11,12 @@ h1{
     color:crimson;
     font-style:italic;
 }
+footer{
+    margin-bottom:0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}

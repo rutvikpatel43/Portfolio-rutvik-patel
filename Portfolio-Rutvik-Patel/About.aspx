@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Portfolio_Rutvik_Patel.About" %>
-
+<%--
+*File name: About.aspx,	
+    Author's	name:Rutvik Patel,
+    web	site	name:http://http://portfolio-rutvik-patel.azurewebsites.net/,
+    file description: This file is the about page.
+--%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
         <div class="col-md-offset-1">
